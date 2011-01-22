@@ -8,7 +8,7 @@ Group:		Applications
 Source0:	http://dinhe.net/~aredridel/projects/ruby/%{name}-%{version}.tar.gz
 # Source0-md5:	a7a23df99307910c503814c389735f46
 URL:		http://dinhe.net/~aredridel/projects/ruby/rumble
-BuildRequires:	ruby-rake
+BuildRequires:	setup.rb
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
